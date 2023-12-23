@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en" charset="UTF-8" name="veiwport" content="width=device-width , initial-scale=1">
+        <title>Home Page </title>
+        <link rel="stylesheet" href="stylemain.css"></rel>
+    </head>
+    <body>
+        <section>
+            <div class="background">
+                <div class="page-Container">
+                    <h2>To-Do List <img src="logo  todolist.jpeg" alt="notepad image"></h2>
+                    <div class="row">
+                        <input type="text" id="input-box" placeholder="Add Your Text" >
+                        <select id="prioritySelect">
+                            <option value="high" class="high-priority">High</option>
+                            <option value="medium" class="medium-priority">Medium</option>
+                            <option value="low" class="low-priority">Low</option>
+                          </select>
+                          <button onclick="addTask()">Add</button>
+                        
+                    </div>
+                    <ul id="list-container">
+                        <!-- <li  class="checked">task1</li>
+                        <li  class="checked">task2</li>
+                        <li  class="checked">task3</li> -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
